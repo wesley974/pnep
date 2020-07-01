@@ -4,7 +4,7 @@
   "description": "A prototype for a micro e-commerce",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/wesley974/pnep#readme",
   "devDependencies": {
-    "browsersync": "0.0.1-security",
     "nodemon": "^2.0.4"
   },
   "dependencies": {
